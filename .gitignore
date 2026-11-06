@@ -1,0 +1,8 @@
+# 密钥、环境与运行缓存
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+logs/
+local_index/

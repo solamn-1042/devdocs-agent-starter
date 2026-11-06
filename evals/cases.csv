@@ -1,0 +1,5 @@
+case_id,question,expected_source,observed_source,notes
+1,Agent工具由谁执行？,01_agent.md,,待本人实测
+2,RAG为什么要给出来源？,02_rag.md,,待本人实测
+3,火星天气预报如何查看,, ,待本人实测
+4,项目Badcase应记录什么？,04_my_project.md,,新增知识后实测
