@@ -6,3 +6,4 @@ __pycache__/
 *.pyc
 logs/
 local_index/
+chroma_db/
