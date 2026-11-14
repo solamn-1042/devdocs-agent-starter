@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Q01",
+    "question": "索引更新后应先做什么？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "索引更新后先运行固定问题回归检查。"
+  },
+  {
+    "id": "Q02",
+    "question": "什么情况下要记录Badcase？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "检索命中错误来源时应记录Badcase。"
+  },
+  {
+    "id": "Q03",
+    "question": "Badcase最少记录哪些字段？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "Badcase记录问题、预期来源、实际来源和失败原因。"
+  },
+  {
+    "id": "Q04",
+    "question": "为什么保留Chunk ID？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "Chunk ID用于定位证据片段和追踪引用。"
+  },
+  {
+    "id": "Q05",
+    "question": "来源文件名有什么用途？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "来源文件名用于追踪回答依据的原始文档。"
+  },
+  {
+    "id": "Q06",
+    "question": "什么时候拒绝回答？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "证据不足时应拒绝回答并提示补充文档。"
+  },
+  {
+    "id": "Q07",
+    "question": "引用校验检查什么？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "引用校验检查回答中的Chunk ID是否属于本次检索结果。"
+  },
+  {
+    "id": "Q08",
+    "question": "向量分数能直接代表正确率吗？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "向量相似度分数不能直接代表回答正确率。"
+  },
+  {
+    "id": "Q09",
+    "question": "为什么固定同一套问题？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "固定测试集用于对比代码修改前后的检索效果。"
+  },
+  {
+    "id": "Q10",
+    "question": "Hit@3如何计算？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "Hit@3表示前3个检索结果中包含标注证据的问题比例。"
+  },
+  {
+    "id": "Q11",
+    "question": "什么是Top K？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "Top K表示检索后保留的前K个候选片段。"
+  },
+  {
+    "id": "Q12",
+    "question": "如何判断索引是否过期？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "知识文档发生变化后应重新同步索引。"
+  },
+  {
+    "id": "Q13",
+    "question": "上传文件允许什么格式？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "本地知识库界面接受UTF-8编码的Markdown或TXT文件。"
+  },
+  {
+    "id": "Q14",
+    "question": "同名上传默认怎么处理？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "同名文件默认不覆盖，只有明确允许覆盖才替换。"
+  },
+  {
+    "id": "Q15",
+    "question": "为什么要检查文件编码？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "文件编码检查可避免把无法解码的内容写入知识库。"
+  },
+  {
+    "id": "Q16",
+    "question": "检索失败时如何降级？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "Chroma异常时可以尝试关键词检索作为降级。"
+  },
+  {
+    "id": "Q17",
+    "question": "模型超时后应该怎样做？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "模型超时应记录异常并执行有限次数重试或降级。"
+  },
+  {
+    "id": "Q18",
+    "question": "为什么记录检索耗时？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "检索耗时用于判断功能优化是否引入性能退化。"
+  },
+  {
+    "id": "Q19",
+    "question": "为什么区分离线测试和真实调用？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "离线测试不证明真实Embedding和模型API可用。"
+  },
+  {
+    "id": "Q20",
+    "question": "评测后怎样处理失败问题？",
+    "gold_source": "20_day8_eval.md",
+    "gold_text": "评测失败的问题应写入Badcase文件并复查证据。"
+  }
+]
