@@ -310,4 +310,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    from streamlit.runtime.scriptrunner import get_script_run_ctx
+
+    if get_script_run_ctx(suppress_warning=True) is None:
+        # 支持 python streamlit_app.py 和 IDE 直接运行；由服务重新执行页面。
+        import sys
+        from streamlit.web import cli
+
+        cli.main(args=["run", str(Path(__file__).resolve()), *sys.argv[1:]])
+    else:
+        main()

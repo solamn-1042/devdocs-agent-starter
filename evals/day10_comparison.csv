@@ -1,0 +1,21 @@
+﻿id,question,hybrid_hit,rerank_hit,hybrid_ms,rerank_ms,hybrid_sources,rerank_sources
+Q01,索引更新后应先做什么？,1,1,34515.8,40.1,20_day8_eval.md | 20_day8_eval.md | 08_my_chunks.md,20_day8_eval.md | 11_streamlit_demo.md | 20_day8_eval.md
+Q02,什么情况下要记录Badcase？,1,1,51.0,40.6,20_day8_eval.md | 07_chunk_demo.md | 20_day8_eval.md,20_day8_eval.md | 07_chunk_demo.md | 20_day8_eval.md
+Q03,Badcase最少记录哪些字段？,1,1,35.5,43.8,20_day8_eval.md | 20_day8_eval.md | 07_chunk_demo.md,20_day8_eval.md | 20_day8_eval.md | 07_chunk_demo.md
+Q04,为什么保留Chunk ID？,1,1,43.6,39.7,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md
+Q05,来源文件名有什么用途？,1,1,42.2,46.3,20_day8_eval.md | 06_update_rules.txt | 08_my_chunks.md,20_day8_eval.md | 06_update_rules.txt | 08_my_chunks.md
+Q06,什么时候拒绝回答？,1,1,39.0,51.6,20_day8_eval.md | 08_my_chunks.md | 20_day8_eval.md,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md
+Q07,引用校验检查什么？,1,1,36.6,41.8,20_day8_eval.md | 09_semantic_demo.md | 20_day8_eval.md,20_day8_eval.md | 09_semantic_demo.md | 01_agent.md
+Q08,向量分数能直接代表正确率吗？,1,1,39.8,45.1,20_day8_eval.md | 02_rag.md | 20_day8_eval.md,20_day8_eval.md | 02_rag.md | 20_day8_eval.md
+Q09,为什么固定同一套问题？,0,0,43.1,37.8,20_day8_eval.md | 07_chunk_demo.md | 09_semantic_demo.md,20_day8_eval.md | 07_chunk_demo.md | 09_semantic_demo.md
+Q10,Hit@3如何计算？,1,1,40.8,36.7,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md
+Q11,什么是Top K？,1,1,43.3,39.1,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md
+Q12,如何判断索引是否过期？,0,0,41.0,43.6,20_day8_eval.md | 20_day8_eval.md | 08_my_chunks.md,20_day8_eval.md | 03_langgraph.md | 20_day8_eval.md
+Q13,上传文件允许什么格式？,1,1,39.4,41.4,20_day8_eval.md | 20_day8_eval.md | 20_day8_eval.md,20_day8_eval.md | 05_api_rules.txt | 20_day8_eval.md
+Q14,同名上传默认怎么处理？,1,1,39.2,40.1,20_day8_eval.md | 05_api_rules.txt | 08_my_chunks.md,20_day8_eval.md | 05_api_rules.txt | 09_semantic_demo.md
+Q15,为什么要检查文件编码？,1,1,39.3,42.5,20_day8_eval.md | 20_day8_eval.md | 08_my_chunks.md,20_day8_eval.md | 11_streamlit_demo.md | 20_day8_eval.md
+Q16,检索失败时如何降级？,1,1,44.4,40.9,20_day8_eval.md | 09_semantic_demo.md | 08_my_chunks.md,20_day8_eval.md | 09_semantic_demo.md | 08_my_chunks.md
+Q17,模型超时后应该怎样做？,1,1,42.2,44.1,20_day8_eval.md | 10_my_semantic.md | 07_chunk_demo.md,20_day8_eval.md | 01_agent.md | 10_my_semantic.md
+Q18,为什么记录检索耗时？,1,1,42.4,42.4,20_day8_eval.md | 08_my_chunks.md | 07_chunk_demo.md,20_day8_eval.md | 08_my_chunks.md | 07_chunk_demo.md
+Q19,为什么区分离线测试和真实调用？,1,1,42.9,47.8,20_day8_eval.md | 20_day8_eval.md | 08_my_chunks.md,20_day8_eval.md | 08_my_chunks.md | 06_update_rules.txt
+Q20,评测后怎样处理失败问题？,1,1,43.7,43.7,20_day8_eval.md | 07_chunk_demo.md | 09_semantic_demo.md,20_day8_eval.md | 07_chunk_demo.md | 09_semantic_demo.md
