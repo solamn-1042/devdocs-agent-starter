@@ -1,9 +1,13 @@
 # 密钥、环境与运行缓存
 .env
-.venv/
+.env.*
+!.env.example
 __pycache__/
-.pytest_cache/
-*.pyc
+*.py[cod]
+.venv/
+venv/
 logs/
-local_index/
+reports/
 chroma_db/
+chroma_data/
+*.sqlite3
